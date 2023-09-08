@@ -44,7 +44,7 @@ const MyLevelPage: FunctionComponent = () => {
           <div className="w-[688px] h-[580px] flex flex-col items-center justify-start gap-[20px]">
             <div className="w-[688px] h-[470px] overflow-hidden shrink-0 flex flex-col items-center justify-center gap-[80px]">
               <div className="flex flex-col items-start justify-start gap-[20px]">
-                <div className="relative leading-[46px] font-extrabold">
+                <div className="relative leading-[46px] font-extrabold ">
                   나의 지식 수준
                 </div>
                 <div className="relative bg-royalblue w-[170px] h-1" />
@@ -55,7 +55,7 @@ const MyLevelPage: FunctionComponent = () => {
                   alt=""
                   src="/ico1@2x.png"
                 />
-                <div className="relative leading-[60px] font-extrabold">
+                <div className="relative leading-[60px] font-extrabold text-black">
                   새로운 관점으로 세상을 바라보는 탐험가
                 </div>
               </div>

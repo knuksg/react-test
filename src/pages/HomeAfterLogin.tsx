@@ -242,14 +242,19 @@ const HomeAfterLogin: FunctionComponent = () => {
           </div>
           <div className="w-[1104px] h-[620px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[36px]">
             <div className="w-[344px] h-[620px] overflow-hidden shrink-0 flex flex-col items-center justify-start">
-              <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board3@3x.png')] bg-cover bg-no-repeat bg-[top]" />
-              <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board32@3x.png')] bg-cover bg-no-repeat bg-[top] mt-[-20px]" />
+              <button onClick={() => { window.location.href = "/category" }}
+                className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board3@3x.png')] bg-cover bg-no-repeat bg-[top]" />
+              <button onClick={() => { window.location.href = "/category" }}
+                className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board32@3x.png')] bg-cover bg-no-repeat bg-[top] mt-[-20px]" />
             </div>
             <div className="w-[344px] h-[620px] overflow-hidden shrink-0 flex flex-col items-center justify-start">
-              <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board12@3x.png')] bg-cover bg-no-repeat bg-[top]" />
-              <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board42@3x.png')] bg-cover bg-no-repeat bg-[top] mt-[-20px]" />
+              <button onClick={() => { window.location.href = "/category" }}
+                className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board12@3x.png')] bg-cover bg-no-repeat bg-[top]" />
+              <button onClick={() => { window.location.href = "/category" }}
+                className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board42@3x.png')] bg-cover bg-no-repeat bg-[top] mt-[-20px]" />
             </div>
-            <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board22@3x.png')] bg-cover bg-no-repeat bg-[top]" />
+            <button onClick={() => { window.location.href = "/category" }}
+              className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[344px] h-80 bg-[url('/public/board22@3x.png')] bg-cover bg-no-repeat bg-[top]" />
           </div>
         </div>
         <div className="relative w-[1920px] h-[184px] z-[5] text-left text-base text-white">

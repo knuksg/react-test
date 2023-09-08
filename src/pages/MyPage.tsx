@@ -62,7 +62,7 @@ const MyPage: FunctionComponent = () => {
                 <div className="absolute top-[0px] left-[0px] leading-[36px]">
                   이름
                 </div>
-                <div className="absolute top-[0px] left-[138px] leading-[36px] text-gray-300">
+                <div className="absolute top-[0px] left-[138px] leading-[36px] text-gray-500">
                   홍길동
                 </div>
               </div>
@@ -70,7 +70,7 @@ const MyPage: FunctionComponent = () => {
                 <div className="absolute top-[0px] left-[0px] leading-[36px]">
                   이메일
                 </div>
-                <div className="absolute top-[0px] left-[138px] leading-[36px] text-gray-300">
+                <div className="absolute top-[0px] left-[138px] leading-[36px] text-gray-500">
                   test@test.com
                 </div>
               </div>
@@ -104,10 +104,10 @@ const MyPage: FunctionComponent = () => {
                   2000/12/31
                 </div>
               </div>
-              <div className="absolute top-[471px] left-[557px] rounded-11xl bg-royalblue w-40 flex flex-row py-[19px] px-[30px] box-border items-center justify-between text-center text-white">
+              <div className="absolute top-[471px] left-[557px] rounded-11xl bg-royalblue w-40 flex flex-row py-[19px] px-[30px] box-border items-center justify-center text-center text-white">
                 <div className="relative font-extrabold">변경</div>
               </div>
-              <div className="absolute top-[471px] left-[387px] rounded-11xl bg-white box-border w-40 flex flex-row py-[19px] px-[30px] items-center justify-between text-center text-royalblue border-[1px] border-solid border-royalblue">
+              <div className="absolute top-[471px] left-[387px] rounded-11xl bg-white box-border w-40 flex flex-row py-[19px] px-[30px] items-center justify-center text-center text-royalblue border-[1px] border-solid border-royalblue">
                 <div className="relative font-extrabold">취소</div>
               </div>
             </div>

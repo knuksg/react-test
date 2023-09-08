@@ -62,7 +62,7 @@ const CategoryPage: FunctionComponent = () => {
             <div className="my-0 mx-[!important] absolute top-[0px] left-[408px] flex flex-row items-end justify-start gap-[50px] z-[1]">
               <div className="flex flex-col items-start justify-start gap-[160px]">
                 <div className="flex flex-col items-start justify-start gap-[30px]">
-                  <h1 className="m-0 relative text-inherit font-extrabold text-black-100">
+                  <h1 className="m-0 relative text-inherit font-extrabold text-gray-400">
                     뉴스 카테고리별 게임
                   </h1>
                   <div className="relative text-5xl leading-[34px] font-extrabold">

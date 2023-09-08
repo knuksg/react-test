@@ -49,7 +49,7 @@ const FAQPage: FunctionComponent = () => {
               <div className="relative bg-royalblue w-[164px] h-1" />
             </div>
             <div className="overflow-hidden flex flex-col items-center justify-start text-left text-5xl text-gray-300">
-              <div className="flex flex-col pt-0 px-0 pb-[60px] items-center justify-start">
+              <div className="text-black flex flex-col pt-0 px-0 pb-[60px] items-center justify-start">
                 <div className="relative bg-gainsboro w-[1104px] h-px" />
                 <div className="self-stretch overflow-hidden flex flex-row items-start justify-center gap-[10px]">
                   <div className="flex-1 overflow-hidden flex flex-col items-end justify-center">
@@ -60,7 +60,7 @@ const FAQPage: FunctionComponent = () => {
                         </div>
                       </div>
                       <div className="flex-1 overflow-hidden flex flex-row items-start justify-start">
-                        <div className="relative leading-[34px] font-extrabold">
+                        <div className="relative leading-[34px] font-extrabold ">
                           크로스워드 플레이 방법
                         </div>
                       </div>
@@ -88,14 +88,14 @@ const FAQPage: FunctionComponent = () => {
               <div className="flex flex-col items-center justify-start">
                 <div className="relative bg-gainsboro w-[1104px] h-px" />
                 <div className="self-stretch flex flex-row items-center justify-start">
-                  <div className="flex-1 overflow-hidden flex flex-row py-px px-0 items-center justify-start gap-[20px]">
+                  <div className="text-black flex-1 overflow-hidden flex flex-row py-px px-0 items-center justify-start gap-[20px]">
                     <div className="bg-white flex flex-col py-[33px] px-[41px] items-center justify-center">
                       <div className="relative leading-[34px] font-extrabold">
                         Q
                       </div>
                     </div>
                     <div className="flex-1 flex flex-row items-center justify-start">
-                      <div className="relative leading-[34px] font-extrabold">
+                      <div className="relative leading-[34px] font-extrabold ">
                         뉴스 퀴즈 플레이 방법
                       </div>
                     </div>
@@ -113,7 +113,7 @@ const FAQPage: FunctionComponent = () => {
               <div className="flex flex-col items-center justify-start">
                 <div className="relative bg-gainsboro w-[1104px] h-px" />
                 <div className="self-stretch flex flex-row items-center justify-start">
-                  <div className="flex-1 overflow-hidden flex flex-row py-px px-0 items-center justify-start gap-[20px]">
+                  <div className="text-black flex-1 overflow-hidden flex flex-row py-px px-0 items-center justify-start gap-[20px]">
                     <div className="bg-white flex flex-col py-[33px] px-[41px] items-center justify-center">
                       <div className="relative leading-[34px] font-extrabold">
                         Q
@@ -138,7 +138,7 @@ const FAQPage: FunctionComponent = () => {
               <div className="flex flex-col items-center justify-start">
                 <div className="relative bg-gainsboro w-[1104px] h-px" />
                 <div className="self-stretch flex flex-row items-center justify-start">
-                  <div className="flex-1 overflow-hidden flex flex-row py-px px-0 items-center justify-start gap-[20px]">
+                  <div className="text-black flex-1 overflow-hidden flex flex-row py-px px-0 items-center justify-start gap-[20px]">
                     <div className="bg-white flex flex-col py-[33px] px-[41px] items-center justify-center">
                       <div className="relative leading-[34px] font-extrabold">
                         Q
@@ -163,7 +163,7 @@ const FAQPage: FunctionComponent = () => {
               <div className="flex flex-col items-center justify-start">
                 <div className="relative bg-gainsboro w-[1104px] h-px" />
                 <div className="self-stretch flex flex-row items-center justify-start">
-                  <div className="flex-1 overflow-hidden flex flex-row py-px px-0 items-center justify-start gap-[20px]">
+                  <div className="text-black flex-1 overflow-hidden flex flex-row py-px px-0 items-center justify-start gap-[20px]">
                     <div className="bg-white flex flex-col py-[33px] px-[41px] items-center justify-center">
                       <div className="relative leading-[34px] font-extrabold">
                         Q

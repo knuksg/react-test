@@ -55,7 +55,8 @@ const HomeBeforeLogin: FunctionComponent = () => {
               <div className="relative bg-royalblue w-[196px] h-1" />
             </div>
             <div className="flex flex-col items-start justify-start gap-[60px]">
-              <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[1104px] h-[180px] bg-[url('/public/listtype022@3x.png')] bg-cover bg-no-repeat bg-[top]" />
+              <button onClick={() => { window.location.href = "/gamePage" }}
+                className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[1104px] h-[180px] bg-[url('/public/listtype022@3x.png')] bg-cover bg-no-repeat bg-[top]" />
               <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[1104px] h-[180px] bg-[url('/public/listtype0212@3x.png')] bg-cover bg-no-repeat bg-[top]" />
               <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[1104px] h-[180px] bg-[url('/public/listtype0222@3x.png')] bg-cover bg-no-repeat bg-[top]" />
             </div>

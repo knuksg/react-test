@@ -80,11 +80,11 @@ const WithdrawalPage: FunctionComponent = () => {
                 />
               </div>
             </div>
-            <div className="absolute top-[469px] left-[557px] rounded-11xl bg-royalblue w-40 flex flex-row py-[19px] px-[30px] box-border items-center justify-between text-white">
+            <div className="absolute top-[469px] left-[557px] rounded-11xl bg-royalblue w-40 flex flex-row py-[19px] px-[30px] box-border items-center justify-center text-white">
               <div className="relative font-extrabold">회원탈퇴</div>
             </div>
             <button
-              className="cursor-pointer py-[19px] px-[30px] bg-white absolute top-[469px] left-[387px] rounded-11xl box-border w-40 flex flex-row items-center justify-between border-[1px] border-solid border-royalblue"
+              className="cursor-pointer py-[19px] px-[30px] bg-white absolute top-[469px] left-[387px] rounded-11xl box-border w-40 flex flex-row items-center justify-center border-[1px] border-solid border-royalblue"
               onClick={() => { window.location.href = "/mypage" }}
             >
               <div className="relative text-xl font-extrabold font-pc-h4 text-royalblue text-center">

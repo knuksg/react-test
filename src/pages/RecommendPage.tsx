@@ -61,12 +61,12 @@ const RecommendPage: FunctionComponent = () => {
             <div className="relative bg-whitesmoke-300 w-[1920px] h-[500px] z-[0]" />
             <div className="my-0 mx-[!important] absolute top-[0px] left-[408px] flex flex-row items-center justify-start gap-[36px] z-[1]">
               <div className="flex flex-col items-start justify-start gap-[30px]">
-                <div className="relative font-extrabold">
+                <div className="relative font-extrabold text-black">
                   당신을 위한 게임 추천
                 </div>
                 <div className="relative text-5xl leading-[34px] font-extrabold">
-                  <p className="m-0">{`새롭게 도전하고 싶지만 어떤 게임을 해야 할지 망설이는 `}</p>
-                  <p className="m-0">당신을 위해 추천 드립니다.</p>
+                  <p className="m-0 text-gray-400">{`새롭게 도전하고 싶지만 어떤 게임을 해야 할지 망설이는 `}</p>
+                  <p className="m-0 text-gray-400">당신을 위해 추천 드립니다.</p>
                 </div>
               </div>
               <div className="relative w-[847px] h-[500px]">
@@ -76,7 +76,7 @@ const RecommendPage: FunctionComponent = () => {
           </div>
           <div className="flex flex-col items-center justify-start gap-[60px] text-5xl text-indigo">
             <div className="relative w-[1104px] h-[390px]">
-              <div className="absolute top-[0px] left-[0px] [text-decoration:underline] leading-[34px] font-extrabold">
+              <div className="absolute top-[0px] left-[0px] [text-decoration:underline] leading-[34px] font-extrabold text-violet-500">
                 # 연합뉴스 에디터가 추천하는 오늘의 게임
               </div>
               <div className="absolute top-[64px] left-[0px] w-[1154px] h-[326px] overflow-hidden">
@@ -96,7 +96,7 @@ const RecommendPage: FunctionComponent = () => {
             <div className="relative bg-gainsboro w-[1104px] h-px" />
             <div className="relative w-[1104px] h-[390px]">
               <div className="absolute top-[0px] left-[-50px] w-[474px] overflow-hidden flex flex-col items-end justify-center">
-                <div className="relative [text-decoration:underline] leading-[34px] font-extrabold">
+                <div className="relative [text-decoration:underline] leading-[34px] font-extrabold text-violet-500">
                   # 네이버로 로그인한 독자들을 위한 추천 게임
                 </div>
               </div>
@@ -113,7 +113,7 @@ const RecommendPage: FunctionComponent = () => {
             </div>
             <div className="relative bg-gainsboro w-[1104px] h-px" />
             <div className="relative w-[1104px] h-[391px]">
-              <div className="absolute top-[0px] left-[0px] [text-decoration:underline] leading-[34px] font-extrabold">
+              <div className="absolute top-[0px] left-[0px] [text-decoration:underline] leading-[34px] font-extrabold text-violet-500">
                 # 방금 본 크로스워드 게임에 이어 하면 좋은 게임
               </div>
               <div className="absolute top-[64px] left-[0px] w-[1154px] h-[327px] overflow-hidden">
@@ -130,7 +130,7 @@ const RecommendPage: FunctionComponent = () => {
             <div className="relative bg-gainsboro w-[1104px] h-px" />
             <div className="relative w-[1104px] h-[390px]">
               <div className="absolute top-[0px] left-[-50px] w-[509px] overflow-hidden flex flex-col items-end justify-center">
-                <div className="relative [text-decoration:underline] leading-[34px] font-extrabold">
+                <div className="relative [text-decoration:underline] leading-[34px] font-extrabold text-violet-500">
                   # 최근 22시간 이내 많이 참여한 인기급상승 게임
                 </div>
               </div>
