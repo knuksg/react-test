@@ -1,0 +1,61 @@
+/* global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NanumSquareOTF_ac";
+  src: url("/public/NanumSquareOTF_acR.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NanumSquareOTF_ac";
+  src: url("/public/NanumSquareOTF_acB.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NanumSquareOTF_ac";
+  src: url("/public/NanumSquareOTF_acEB.otf");
+  font-weight: 800;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply leading-[normal] m-0;
+}
+
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
+}
+
+.fadeIn.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
